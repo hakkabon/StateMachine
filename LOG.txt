@@ -1,0 +1,14 @@
+(2011-04-17)
+	• no correct typeinfo available on runtime object
+	• struct Transition destructor is not executed as it should
+(2011-04-20)
+	• only execute init() in leaf state?
+	• event attached to transitions are not unique,
+	  is that a problem? transition search starts at active state 
+(2011-04-22)
+	• redesigned definition of transition, hopefully more 
+	  declarative
+	• added Trigger, Guard, Action parameters to transition
+(2011-04-23)
+	• added basic support for threading
+	• investigating Fibers, which may be much better to use
